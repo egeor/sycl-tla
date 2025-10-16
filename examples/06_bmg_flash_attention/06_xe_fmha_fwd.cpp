@@ -100,7 +100,7 @@ int main(int argc, const char **argv) {
   using SubgroupLayoutQK = Layout<Shape<_16, _1, _1>>;
 
 #elif HEAD_DIM == 192
-  using ShapeQK = Shape<_256, _64, _64>;
+  using ShapeQK = Shape<_256, _64, _32>;
   using ShapePV = Shape<_256, _32, _64>;
   using ShapeOut = Shape<_256, _192>;
   using SubgroupLayoutQK = Layout<Shape<_32, _1, _1>>;
